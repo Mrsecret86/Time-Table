@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td, th{
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        tr:nth-child(1){
+            background-color: aliceblue;
+            font-weight: 700;
+        }
+        td:hover{
+            background-color: orange;
+        }
+        </style>
+</head>
+<body>
+    <section class="welcome" style="background-color: blanchedalmond;">
+        <h1>Welcome to my Blog</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, ratione atque! Iure quod cumque amet tenetur eum nihil aspernatur. Id.</p>
+    </section>
+    <section>
+    <h1>Time Table</h1>
+    <hr>
+    <table>
+        <tr>
+            <td>Day/Period</td>
+            <td>Session 1</td>
+            <td>Session 2</td>
+            <td>Session 3</td>
+            <td>Session 4</td>
+            <td>Session 5</td>
+            <td rowspan="6" style="background-color: rgb(255, 198, 175);">Recess</td>
+            <td>Session 6</td>
+            <td>Session 7</td>
+            <td>Session 8</td>
+            <td rowspan="6" style="background-color: rgb(255, 198, 175);">Lunch</td>
+            <td>Session 9</td>
+            <td>Session 10</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Character Building</td>
+            <td>Social Study</td>
+            <td colspan="2">Science</td>
+            <!-- <td>Science</td> -->
+            <td>Math</td>
+            <!-- <td></td> -->
+            <td>Math</td>
+            <td colspan="2">Civic</td>
+            <!-- <td>Civic</td> -->
+            <!-- <td></td> -->
+            <td>Chinese</td>
+            <td>English Literature</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">Bahasa</td>
+            <!-- <td>Bahasa</td> -->
+            <td>Social Study</td>
+            <td>English Skill</td>
+            <td>English Literature</td>
+            <!-- <td></td> -->
+            <td>Chinese</td>
+            <td>Science</td>
+            <td>Civic</td>
+            <!-- <td></td> -->
+            <td colspan="2">Math</td>
+            <!-- <td>Math</td> -->
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">Math</td>
+            <!-- <td>Math</td> -->
+            <td colspan="2">ICT</td>
+            <!-- <td>ICT</td> -->
+            <td>Bahasa</td>
+            <!-- <td></td> -->
+            <td>Science</td>
+            <td>English Literature</td>
+            <td>Indonesian Art</td>
+            <!-- <td></td> -->
+            <td colspan="2">Chinese</td>
+            <!-- <td>Chinese</td> -->
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="2">Bahasa</td>
+            <!-- <td>Bahasa</td> -->
+            <td>English Skill</td>
+            <td>Music</td>
+            <td>Math</td>
+            <!-- <td></td> -->
+            <td>Chinese</td>
+            <td>Science</td>
+            <td>Math</td>
+            <!-- <td></td> -->
+            <td>Drawing</td>
+            <td style="background-color: red; color: whitesmoke;">No Session</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2">Religion</td>
+            <!-- <td>Religion</td> -->
+            <td>Chinese Poem</td>
+            <td colspan="2">PED</td>
+            <!-- <td>PED</td> -->
+            <!-- <td></td> -->
+            <td>PED</td>
+            <td>Science</td>
+            <td>Faith Session</td>
+            <!-- <td></td> -->
+            <td>Math Enrichment</td>
+            <td>English Literature</td>
+        </tr>
+    </table>
+    </section>
+</body>
+</html>
